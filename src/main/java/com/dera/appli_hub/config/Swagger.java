@@ -12,8 +12,8 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
 
 @OpenAPIDefinition(
         info = @Info(
-                title = "AuthFortress",
-                description = "User Authentication and Authorization System",
+                title = "AppliHub",
+                description = "Job Application System",
                 version = "1.0",
                 contact = @Contact(
                         name = "Chidera Uzoigwe",
@@ -21,12 +21,12 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
                         url = "https://github.com/Deraclassic"
                 ),
                 license = @License(
-                        name = "AuthFortress Application",
+                        name = "AppliHub Application",
                         url = "https://github.com/Deraclassic/job_board"
                 )
         ),
         externalDocs = @ExternalDocumentation(
-                description = "User Authentication and Authorization System",
+                description = "Job Application System",
                 url = "https://github.com/Deraclassic/job_board"
         ),
         security = {

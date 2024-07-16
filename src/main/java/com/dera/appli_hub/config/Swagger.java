@@ -22,12 +22,12 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
                 ),
                 license = @License(
                         name = "AppliHub Application",
-                        url = "https://github.com/Deraclassic/job_board"
+                        url = "https://github.com/Deraclassic/AppliHub"
                 )
         ),
         externalDocs = @ExternalDocumentation(
                 description = "Job Application System",
-                url = "https://github.com/Deraclassic/job_board"
+                url = "https://github.com/Deraclassic/AppliHub"
         ),
         security = {
                 @SecurityRequirement(
